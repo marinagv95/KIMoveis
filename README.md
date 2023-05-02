@@ -44,7 +44,7 @@ A sua empresa está te confiando esse desafio, portanto, dê o seu melhor no des
 -   Tabela **real_estate**: precisa estar com o nome da sua entidade: **RealEstate**
 -   Tabela **schedules**: precisa estar com o nome da sua entidade: **Schedule**
 
-**Todas as entidades devem estar exportadas em seus respectivos arquivos, e na pasta entities precisa deve ter um arquivo index.ts, importando e exportando todas as entidades em forma de módulo.**
+**Todas as entidades devem estar exportadas em seus respectivos arquivos, e na pasta entities deve ter um arquivo index.ts, importando e exportando todas as entidades em forma de módulo.**
 
 ## Endpoints:
 
