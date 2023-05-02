@@ -1,20 +1,17 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-
     "target": "es2016",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "module": "commonjs",
-    "typeRoots": ["src/@types", "node_modules/@types"],
-    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "strictPropertyInitialization": false,
+    "exactOptionalPropertyTypes": true,
     "skipLibCheck": true,
-    "exactOptionalPropertyTypes": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false
   },
-  "include": ["src", "app.ts", "server.ts"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
