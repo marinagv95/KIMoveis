@@ -32,7 +32,7 @@ class User {
   @CreateDateColumn({ type: "date" })
   createdAt: string;
 
-  @UpdateDateColumn({ type: "date", nullable: true })
+  @UpdateDateColumn({ type: "date", nullable: false })
   updatedAt: string;
 
   @DeleteDateColumn({ type: "date", nullable: true })

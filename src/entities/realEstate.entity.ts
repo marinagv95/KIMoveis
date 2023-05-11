@@ -30,7 +30,7 @@ class RealEstate {
   @CreateDateColumn({ type: "date" })
   createdAt: string;
 
-  @UpdateDateColumn({ type: "date", nullable: true })
+  @UpdateDateColumn({ type: "date", nullable: false })
   updatedAt: string;
 
   @OneToOne(() => Address)
